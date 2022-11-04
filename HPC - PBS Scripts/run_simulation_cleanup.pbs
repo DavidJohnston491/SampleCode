@@ -1,0 +1,51 @@
+#!/bin/bash
+#
+######
+# Name:        run_simulation_cleanup.pbs
+# Description: pbs file to cleanup apsim simulations temporary directory
+#
+# set jobname
+#PBS -N Apsim_Simulation_Cleanup
+
+# set job resources
+# [change these resources settings as required]
+#PBS -l ncpus=20
+#PBS -l walltime=48:00:00
+#PBS -l mem=96gb
+
+# set project code
+# [change this to the correct project code]
+#PBS -P IAgE_AGSMG_season
+
+# set default for email notifications
+# [change this to the correct email address]
+#PBS -m bea
+#PBS -M afshin.ghahramani@usq.edu.au
+
+# get system variables
+#PBS -V
+
+# change to working directory
+cd $PBS_O_WORKDIR
+
+# set temporary directories
+CLEANUP_DIRID=${TMP_WORKDIR}
+TMPDIR=/sandisk1/${USER}/${CLEANUP_DIRID}
+
+# create results directory if it doesn't exist
+if [ ! -d "${PBS_O_WORKDIR}/results" ]; then
+   mkdir -p ${PBS_O_WORKDIR}/results
+fi
+
+# copy output files back to working directory
+cp -np ${TMPDIR}/*.out ${PBS_O_WORKDIR}/results
+cp -np ${TMPDIR}/*.tif ${PBS_O_WORKDIR}/results
+
+# tar up simulation sum files in working directory
+tar -cf ${PBS_O_WORKDIR}/${CLEANUP_DIRID}_sumfiles.tar ${TMPDIR}/*.sum
+
+# remove temporary directory
+rm -rf ${TMPDIR}
+
+#
+# The End

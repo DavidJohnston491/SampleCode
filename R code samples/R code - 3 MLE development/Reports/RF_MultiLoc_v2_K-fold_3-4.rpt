@@ -1,0 +1,63 @@
+Report on RANDOM FOREST model development for   Six Locations ML v2 
+ 
+
+Development Model KFold # 1  with 26185 datapoints used for output/validation EmergenceDAS.    Model development time:  5576.897 seconds.
+Development Model KFold # 2  with 26185 datapoints used for output/validation EmergenceDAS.    Model development time:  5602.606 seconds.
+
+ 
+
+Development Model KFold # 1  with 26185 datapoints used for output/validation FloweringDAS.    Model development time:  5644.579 seconds.
+Development Model KFold # 2  with 26185 datapoints used for output/validation FloweringDAS.    Model development time:  5639.47 seconds.
+
+ 
+
+Development Model KFold # 1  with 26185 datapoints used for output/validation PoddingDAS.    Model development time:  5781.725 seconds.
+Development Model KFold # 2  with 26185 datapoints used for output/validation PoddingDAS.    Model development time:  5630.711 seconds.
+
+ 
+
+Development Model KFold # 1  with 26185 datapoints used for output/validation MaturityDAS.    Model development time:  5463.298 seconds.
+Development Model KFold # 2  with 26185 datapoints used for output/validation MaturityDAS.    Model development time:  5442.839 seconds.
+
+ 
+
+Development Model KFold # 1  with 26185 datapoints used for output/validation Biomass.    Model development time:  5115.85 seconds.
+Development Model KFold # 2  with 26185 datapoints used for output/validation Biomass.    Model development time:  5123.579 seconds.
+
+ 
+
+Development Model KFold # 1  with 26185 datapoints used for output/validation GrainWt.    Model development time:  5157.638 seconds.
+Development Model KFold # 2  with 26185 datapoints used for output/validation GrainWt.    Model development time:  6529.757 seconds.
+
+ 
+
+"ModelNo"		"Target"		"MB"		"MAE"		"RMSE"		"R2"		"IOA"		"COE"
+"2"		1		"EmergenceDAS"		0.00133668082115057		0.221133436385186		0.323240889028336		0.993465032834695		0.966097540755431		0.932195081510861
+"3"		2		"EmergenceDAS"		-0.00134427007739806		0.222302486960774		0.328653003595315		0.993221713674295		0.965948071031827		0.931896142063654
+"4"		1		"FloweringDAS"		0.0199026972797853		1.00495454682799		1.35894758828417		0.995772260611689		0.969906441142477		0.939812882284955
+"5"		2		"FloweringDAS"		0.0273025877773161		0.984538033538001		1.32956424829296		0.996011664839891		0.97074973356986		0.94149946713972
+"6"		1		"PoddingDAS"		0.015412689987946		2.49567055204443		4.25945001509747		0.984963469962214		0.955489865691089		0.910979731382179
+"7"		2		"PoddingDAS"		0.0197365316808091		2.51992507133697		4.33895006329376		0.984486129172286		0.955205440666458		0.910410881332915
+"8"		1		"MaturityDAS"		0.00912845179863071		1.80305390352457		2.86980837768684		0.992596717436687		0.966729838598697		0.933459677197394
+"9"		2		"MaturityDAS"		0.00542237953773886		1.82486889438167		2.87138155899855		0.992525774688769		0.966210220701219		0.932420441402437
+"10"		1		"Biomass"		-0.123748735461392		15.9987856213349		26.5935324019146		0.994842868084768		0.974632130013889		0.949264260027778
+"11"		2		"Biomass"		0.187522418376672		16.1305695718209		26.911628102946		0.994694797302231		0.97434534278245		0.9486906855649
+"12"		1		"GrainWt"		0.0491402420171815		12.308947022468		20.6917182846282		0.983162030810826		0.954611360586289		0.909222721172579
+"13"		2		"GrainWt"		-0.0531178448322751		12.300461270108		20.2669542788047		0.983858557198884		0.954823963628098		0.909647927256196
+
+ 
+ 
+
+ 
+ SUMMARY 
+
+        Target        meanMB        sdMB    meanMAE        sdMAE   meanRMSE      sdRMSE    meanR2         sdR2    meanIOA        sdIOA   meanCOE        sdCOE
+1      Biomass  3.188684e-02 0.220101944 16.0646776 0.0931853250 26.7525803 0.224927627 0.9947688 0.00010470191 0.9744887 0.0002027892 0.9489775 0.0004055784
+2 EmergenceDAS -3.794628e-06 0.001895719  0.2217180 0.0008266436  0.3259469 0.003826943 0.9933434 0.0001720526  0.9660228 0.0001056911 0.9320456 0.0002113821
+3 FloweringDAS  2.360264e-02 0.005232513  0.9947463 0.0144366550  1.3442559 0.020777159 0.9958920 0.0001692844  0.9703281 0.0005962978 0.9406562 0.0011925956
+4      GrainWt -1.988801e-03 0.072307387 12.3047041 0.0060003330 20.4793363 0.300353509 0.9835103 0.0004925185  0.9547177 0.0001503331 0.9094353 0.0003006661
+5  MaturityDAS  7.275416e-03 0.002620589  1.8139614 0.0154255280  2.8705950 0.001112407 0.9925612 0.0000501641  0.9664700 0.0003674253 0.9329401 0.0007348507
+6   PoddingDAS  1.757461e-02 0.003057418  2.5077978 0.0171505351  4.2992000 0.056215023 0.9847248 0.0003375309  0.9553477 0.0002011189 0.9106953 0.0004022377
+
+ 
+ 

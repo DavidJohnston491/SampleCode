@@ -1,0 +1,27 @@
+Report on nnet model development for   Six Locations (nnet) 
+ 
+
+
+ Development Model KFold # 1  with  26185 datapoints used for output/validation  EmergenceDAS . 
+  Model development time:  55.199 seconds.
+
+ Development Model KFold # 2  with  26185 datapoints used for output/validation  EmergenceDAS . 
+  Model development time:  57.315 seconds.
+
+ Development Model KFold # 3  with  26185 datapoints used for output/validation  EmergenceDAS . 
+  Model development time:  22.979 seconds.
+
+ Development Model KFold # 1  with  26185 datapoints used for output/validation  FloweringDAS . 
+  Model development time:  0.752 seconds.
+
+ Development Model KFold # 2  with  26185 datapoints used for output/validation  FloweringDAS . 
+  Model development time:  56.754 seconds.
+
+ Development Model KFold # 3  with  26185 datapoints used for output/validation  FloweringDAS . 
+  Model development time:  61.914 seconds.
+
+ Development Model KFold # 1  with  26185 datapoints used for output/validation  PoddingDAS . 
+  Model development time:  57.651 seconds.
+
+ Development Model KFold # 2  with  26185 datapoints used for output/validation  PoddingDAS . 
+  Model development time:  64.74 seconds.

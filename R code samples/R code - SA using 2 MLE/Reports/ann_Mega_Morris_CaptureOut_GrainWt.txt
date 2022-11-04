@@ -1,0 +1,756 @@
+
+
+>>>New Analysis: -  GrainWt  Sample size:  1000    Emerald S1
+Call:
+morris(model = NULL, factors = 22, r = 1000, design = list(type = "oat",     levels = 10, grid.jump = 5), binf = c(-36.67, 120, 400, 0,     100, 30, 0.2, 260, 50, 90, 0, 0, 0, 10.7, 10.9, 10.6, 0,     0, 0, 152, 152, 168), bsup = c(-23.569, 140, 600, 250, 200,     40, 1, 340, 340, 200, 18.8, 16.8, 19.2, 33, 33.2, 36, 295,     378, 379, 633, 743, 803), scale = TRUE)
+
+Model runs: 23000 
+mu :
+                       [,1]
+Lat               39.355261
+ShootLag          35.118953
+VegTarget         48.998464
+LateVegTarget     32.614211
+FloweringTarget   -6.143768
+Population        71.513228
+FracPAWCmm       -96.974260
+PAWCmm           -63.186730
+sowingESW        162.827018
+SowingDOY        -66.533226
+AvgMinT0_30      -59.611877
+AvgMinT30_60      -1.230662
+AvgMinT60_90    -172.381949
+AvgMaxT0_30      -32.208117
+AvgMaxT30_60    -187.696419
+AvgMaxT60_90    -298.443462
+Rain0_30          60.715551
+Rain30_60         36.457835
+Rain60_90         61.221707
+Radn0_30          52.855385
+Radn30_60        121.610247
+Radn60_90        107.422891
+
+mu.star :
+                     [,1]
+Lat              47.62560
+ShootLag         35.53554
+VegTarget        51.36707
+LateVegTarget    47.70960
+FloweringTarget  12.55920
+Population       73.11676
+FracPAWCmm      130.58058
+PAWCmm           81.07513
+sowingESW       183.12592
+SowingDOY        79.54758
+AvgMinT0_30      88.47174
+AvgMinT30_60     65.07892
+AvgMinT60_90    186.51003
+AvgMaxT0_30      43.94603
+AvgMaxT30_60    190.21741
+AvgMaxT60_90    299.17201
+Rain0_30         69.38344
+Rain30_60        81.94499
+Rain60_90       110.16426
+Radn0_30         72.17191
+Radn30_60       128.16398
+Radn60_90       117.44003
+
+sigma :
+                     [,1]
+Lat             102.10462
+ShootLag         25.45781
+VegTarget        43.88528
+LateVegTarget    57.12631
+FloweringTarget  15.39173
+Population      100.69676
+FracPAWCmm      132.45772
+PAWCmm          126.79078
+sowingESW       157.66455
+SowingDOY        80.41419
+AvgMinT0_30      95.83815
+AvgMinT30_60     84.06533
+AvgMinT60_90    152.05323
+AvgMaxT0_30      48.51908
+AvgMaxT30_60    126.29715
+AvgMaxT60_90    142.68128
+Rain0_30         83.83900
+Rain30_60       114.54658
+Rain60_90       130.57632
+Radn0_30         79.40827
+Radn30_60       104.58048
+Radn60_90       105.86862
+
+
+ <<<< Time Taken for analysis:  0.102  seconds 
+
+
+>>>New Analysis: -  GrainWt  Sample size:  1000    Emerald S2
+Call:
+morris(model = NULL, factors = 22, r = 1000, design = list(type = "oat",     levels = 10, grid.jump = 5), binf = c(-36.67, 120, 400, 0,     100, 30, 0.2, 260, 50, 90, 0, 0, 0, 10.7, 10.9, 10.6, 0,     0, 0, 152, 152, 168), bsup = c(-23.569, 140, 600, 250, 200,     40, 1, 340, 340, 200, 18.8, 16.8, 19.2, 33, 33.2, 36, 295,     378, 379, 633, 743, 803), scale = TRUE)
+
+Model runs: 23000 
+mu :
+                       [,1]
+Lat               42.456482
+ShootLag          34.678292
+VegTarget         48.931728
+LateVegTarget     32.399817
+FloweringTarget   -7.439374
+Population        67.789542
+FracPAWCmm       -89.488357
+PAWCmm           -55.786015
+sowingESW        160.686445
+SowingDOY        -65.331376
+AvgMinT0_30      -62.182359
+AvgMinT30_60      -3.175715
+AvgMinT60_90    -181.206520
+AvgMaxT0_30      -34.316256
+AvgMaxT30_60    -184.398103
+AvgMaxT60_90    -303.413496
+Rain0_30          52.659995
+Rain30_60         34.380764
+Rain60_90         62.110290
+Radn0_30          56.876454
+Radn30_60        121.829836
+Radn60_90        113.723911
+
+mu.star :
+                     [,1]
+Lat              49.47287
+ShootLag         35.30334
+VegTarget        50.68697
+LateVegTarget    45.60573
+FloweringTarget  13.03284
+Population       69.94176
+FracPAWCmm      133.20682
+PAWCmm           79.35131
+sowingESW       184.59358
+SowingDOY        79.23261
+AvgMinT0_30      90.78585
+AvgMinT30_60     68.34378
+AvgMinT60_90    191.88915
+AvgMaxT0_30      44.36276
+AvgMaxT30_60    186.98743
+AvgMaxT60_90    303.87256
+Rain0_30         62.33803
+Rain30_60        78.54756
+Rain60_90       107.95502
+Radn0_30         75.69762
+Radn30_60       129.44134
+Radn60_90       123.14541
+
+sigma :
+                     [,1]
+Lat             107.15814
+ShootLag         25.80585
+VegTarget        42.59939
+LateVegTarget    53.66640
+FloweringTarget  14.72321
+Population       99.90691
+FracPAWCmm      144.08950
+PAWCmm          128.12027
+sowingESW       161.87608
+SowingDOY        80.38532
+AvgMinT0_30      99.32609
+AvgMinT30_60     87.18824
+AvgMinT60_90    152.22406
+AvgMaxT0_30      47.05614
+AvgMaxT30_60    132.52520
+AvgMaxT60_90    144.75013
+Rain0_30         82.41452
+Rain30_60       109.63369
+Rain60_90       129.13969
+Radn0_30         79.74560
+Radn30_60       107.93993
+Radn60_90       105.84565
+
+
+ <<<< Time Taken for analysis:  0.168  seconds 
+
+
+>>>New Analysis: -  GrainWt  Sample size:  1000    Emerald S3
+Call:
+morris(model = NULL, factors = 22, r = 1000, design = list(type = "oat",     levels = 10, grid.jump = 5), binf = c(-36.67, 120, 400, 0,     100, 30, 0.2, 260, 50, 90, 0, 0, 0, 10.7, 10.9, 10.6, 0,     0, 0, 152, 152, 168), bsup = c(-23.569, 140, 600, 250, 200,     40, 1, 340, 340, 200, 18.8, 16.8, 19.2, 33, 33.2, 36, 295,     378, 379, 633, 743, 803), scale = TRUE)
+
+Model runs: 23000 
+mu :
+                        [,1]
+Lat               47.5472904
+ShootLag          35.4654273
+VegTarget         48.0464753
+LateVegTarget     32.2003455
+FloweringTarget   -5.4691144
+Population        68.2509182
+FracPAWCmm       -94.9179832
+PAWCmm           -68.2247054
+sowingESW        150.6756933
+SowingDOY        -67.6899724
+AvgMinT0_30      -67.4669866
+AvgMinT30_60       0.7952517
+AvgMinT60_90    -174.1382786
+AvgMaxT0_30      -32.0159396
+AvgMaxT30_60    -182.9454607
+AvgMaxT60_90    -296.4926031
+Rain0_30          57.2633124
+Rain30_60         39.9928099
+Rain60_90         57.2690749
+Radn0_30          50.0076151
+Radn30_60        118.4202882
+Radn60_90        111.2311135
+
+mu.star :
+                     [,1]
+Lat              54.55955
+ShootLag         35.90664
+VegTarget        49.50295
+LateVegTarget    45.77711
+FloweringTarget  12.65340
+Population       69.85150
+FracPAWCmm      133.21458
+PAWCmm           84.71425
+sowingESW       181.67164
+SowingDOY        79.46240
+AvgMinT0_30      91.59192
+AvgMinT30_60     64.78802
+AvgMinT60_90    184.83648
+AvgMaxT0_30      44.05627
+AvgMaxT30_60    184.75693
+AvgMaxT60_90    297.66664
+Rain0_30         65.58263
+Rain30_60        80.66351
+Rain60_90       106.40777
+Radn0_30         69.85999
+Radn30_60       125.16849
+Radn60_90       119.41605
+
+sigma :
+                     [,1]
+Lat             117.67512
+ShootLag         25.65161
+VegTarget        41.15329
+LateVegTarget    55.17498
+FloweringTarget  14.97563
+Population       89.78529
+FracPAWCmm      136.05562
+PAWCmm          131.97456
+sowingESW       170.64543
+SowingDOY        76.72102
+AvgMinT0_30      97.74615
+AvgMinT30_60     82.78046
+AvgMinT60_90    146.75795
+AvgMaxT0_30      46.85993
+AvgMaxT30_60   150
+AvgMaxT60_90    147.29503
+Rain0_30         82.38761
+Rain30_60       105.83515
+Rain60_90       132.61881
+Radn0_30         77.26943
+Radn30_60       104.85190
+Radn60_90       101.32691
+
+
+ <<<< Time Taken for analysis:  0.091  seconds 
+
+
+>>>New Analysis: -  GrainWt  Sample size:  1000    Gunnedah S1
+Call:
+morris(model = NULL, factors = 22, r = 1000, design = list(type = "oat",     levels = 10, grid.jump = 5), binf = c(-36.67, 120, 400, 0,     100, 30, 0.2, 260, 50, 90, 0, 0, 0, 10.7, 10.9, 10.6, 0,     0, 0, 152, 152, 168), bsup = c(-23.569, 140, 600, 250, 200,     40, 1, 340, 340, 200, 18.8, 16.8, 19.2, 33, 33.2, 36, 295,     378, 379, 633, 743, 803), scale = TRUE)
+
+Model runs: 23000 
+mu :
+                       [,1]
+Lat               47.115395
+ShootLag          35.469443
+VegTarget         47.461448
+LateVegTarget     32.356135
+FloweringTarget   -4.977580
+Population        71.201574
+FracPAWCmm       -84.193477
+PAWCmm           -62.108583
+sowingESW        149.960350
+SowingDOY        -67.229315
+AvgMinT0_30      -62.067912
+AvgMinT30_60       4.432073
+AvgMinT60_90    -177.663076
+AvgMaxT0_30      -32.824484
+AvgMaxT30_60    -176.082160
+AvgMaxT60_90    -290.840061
+Rain0_30          56.453428
+Rain30_60         35.961357
+Rain60_90         61.985763
+Radn0_30          52.266316
+Radn30_60        117.133933
+Radn60_90        113.178834
+
+mu.star :
+                     [,1]
+Lat              53.42860
+ShootLag         36.03995
+VegTarget        50.32960
+LateVegTarget    46.68704
+FloweringTarget  11.98545
+Population       72.96754
+FracPAWCmm      127.34493
+PAWCmm           83.65909
+sowingESW       174.31407
+SowingDOY        78.74525
+AvgMinT0_30      88.68493
+AvgMinT30_60     64.38543
+AvgMinT60_90    188.31480
+AvgMaxT0_30      43.87723
+AvgMaxT30_60    177.90457
+AvgMaxT60_90    291.84732
+Rain0_30         65.90864
+Rain30_60        81.46560
+Rain60_90       102.19566
+Radn0_30         71.95241
+Radn30_60       124.41146
+Radn60_90       121.05352
+
+sigma :
+                     [,1]
+Lat             111.60130
+ShootLag         26.60281
+VegTarget        42.81383
+LateVegTarget    55.94996
+FloweringTarget  14.99748
+Population       96.97420
+FracPAWCmm      139.77303
+PAWCmm          131.98966
+sowingESW       160.17588
+SowingDOY        78.81490
+AvgMinT0_30      95.82011
+AvgMinT30_60     83.74713
+AvgMinT60_90    150.11551
+AvgMaxT0_30      46.32850
+AvgMaxT30_60    118.76112
+AvgMaxT60_90    150.72171
+Rain0_30         84.77998
+Rain30_60       112.09468
+Rain60_90       120.70928
+Radn0_30         80.76309
+Radn30_60       106.20717
+Radn60_90       103.13591
+
+
+ <<<< Time Taken for analysis:  0.169  seconds 
+
+
+>>>New Analysis: -  GrainWt  Sample size:  1000    Gunnedah S2
+Call:
+morris(model = NULL, factors = 22, r = 1000, design = list(type = "oat",     levels = 10, grid.jump = 5), binf = c(-36.67, 120, 400, 0,     100, 30, 0.2, 260, 50, 90, 0, 0, 0, 10.7, 10.9, 10.6, 0,     0, 0, 152, 152, 168), bsup = c(-23.569, 140, 600, 250, 200,     40, 1, 340, 340, 200, 18.8, 16.8, 19.2, 33, 33.2, 36, 295,     378, 379, 633, 743, 803), scale = TRUE)
+
+Model runs: 23000 
+mu :
+                       [,1]
+Lat               46.969839
+ShootLag          35.131636
+VegTarget         46.401721
+LateVegTarget     33.657424
+FloweringTarget   -6.618669
+Population        64.113137
+FracPAWCmm       -90.398914
+PAWCmm           -63.415432
+sowingESW        157.651554
+SowingDOY        -63.567572
+AvgMinT0_30      -61.075229
+AvgMinT30_60       5.184777
+AvgMinT60_90    -173.692290
+AvgMaxT0_30      -33.537218
+AvgMaxT30_60    -181.481002
+AvgMaxT60_90    -296.233798
+Rain0_30          60.836798
+Rain30_60         41.768139
+Rain60_90         63.223676
+Radn0_30          54.700719
+Radn30_60        122.079967
+Radn60_90        112.575648
+
+mu.star :
+                     [,1]
+Lat              55.53939
+ShootLag         35.68577
+VegTarget        49.02567
+LateVegTarget    47.33336
+FloweringTarget  12.38136
+Population       66.09148
+FracPAWCmm      133.75966
+PAWCmm           80.30820
+sowingESW       182.89215
+SowingDOY        76.04114
+AvgMinT0_30      88.76712
+AvgMinT30_60     64.20481
+AvgMinT60_90    185.79402
+AvgMaxT0_30      44.14340
+AvgMaxT30_60    183.41590
+AvgMaxT60_90    297.15281
+Rain0_30         69.84374
+Rain30_60        84.09233
+Rain60_90       106.55127
+Radn0_30         72.80758
+Radn30_60       129.37188
+Radn60_90       119.41043
+
+sigma :
+                     [,1]
+Lat             121.08073
+ShootLag         26.38591
+VegTarget        41.47185
+LateVegTarget    55.27571
+FloweringTarget  14.54513
+Population       87.93927
+FracPAWCmm      142.71098
+PAWCmm          124.23566
+sowingESW       166.62713
+SowingDOY        79.86356
+AvgMinT0_30      96.47736
+AvgMinT30_60     83.32158
+AvgMinT60_90    151.52033
+AvgMaxT0_30      47.26460
+AvgMaxT30_60    129.02511
+AvgMaxT60_90    148.46338
+Rain0_30         90.86527
+Rain30_60       113.25293
+Rain60_90       130.18324
+Radn0_30         78.74220
+Radn30_60       105.71394
+Radn60_90       101.09847
+
+
+ <<<< Time Taken for analysis:  0.092  seconds 
+
+
+>>>New Analysis: -  GrainWt  Sample size:  1000    Gunnedah S3
+Call:
+morris(model = NULL, factors = 22, r = 1000, design = list(type = "oat",     levels = 10, grid.jump = 5), binf = c(-36.67, 120, 400, 0,     100, 30, 0.2, 260, 50, 90, 0, 0, 0, 10.7, 10.9, 10.6, 0,     0, 0, 152, 152, 168), bsup = c(-23.569, 140, 600, 250, 200,     40, 1, 340, 340, 200, 18.8, 16.8, 19.2, 33, 33.2, 36, 295,     378, 379, 633, 743, 803), scale = TRUE)
+
+Model runs: 23000 
+mu :
+                       [,1]
+Lat               45.772716
+ShootLag          36.731152
+VegTarget         47.750921
+LateVegTarget     33.041153
+FloweringTarget   -6.325624
+Population        72.691520
+FracPAWCmm       -89.493025
+PAWCmm           -57.870598
+sowingESW        154.360099
+SowingDOY        -69.163884
+AvgMinT0_30      -56.611242
+AvgMinT30_60       5.115780
+AvgMinT60_90    -176.532307
+AvgMaxT0_30      -34.039819
+AvgMaxT30_60    -180.475398
+AvgMaxT60_90    -292.109252
+Rain0_30          56.287607
+Rain30_60         40.910693
+Rain60_90         66.025682
+Radn0_30          52.618073
+Radn30_60        114.848033
+Radn60_90        111.322984
+
+mu.star :
+                     [,1]
+Lat              54.30666
+ShootLag         37.13926
+VegTarget        50.01392
+LateVegTarget    47.08628
+FloweringTarget  12.81662
+Population       74.58128
+FracPAWCmm      133.47481
+PAWCmm           77.56932
+sowingESW       183.17339
+SowingDOY        80.85833
+AvgMinT0_30      85.93046
+AvgMinT30_60     68.63961
+AvgMinT60_90    187.86698
+AvgMaxT0_30      44.58253
+AvgMaxT30_60    183.10643
+AvgMaxT60_90    293.60401
+Rain0_30         65.86807
+Rain30_60        83.63449
+Rain60_90       105.69676
+Radn0_30         74.27150
+Radn30_60       122.57421
+Radn60_90       121.30956
+
+sigma :
+                     [,1]
+Lat             114.91945
+ShootLag         27.24319
+VegTarget        43.04973
+LateVegTarget    58.09628
+FloweringTarget  15.34844
+Population      100.73365
+FracPAWCmm      145.02522
+PAWCmm          122.26884
+sowingESW       166.05780
+SowingDOY        80.08882
+AvgMinT0_30      97.43137
+AvgMinT30_60     88.31027
+AvgMinT60_90    150.98984
+AvgMaxT0_30    150
+AvgMaxT30_60    127.07064
+AvgMaxT60_90    145.56268
+Rain0_30         84.52619
+Rain30_60       113.61753
+Rain60_90       126.70934
+Radn0_30         81.51400
+Radn30_60       105.25199
+Radn60_90       104.90098
+
+
+ <<<< Time Taken for analysis:  0.154  seconds 
+
+
+>>>New Analysis: -  GrainWt  Sample size:  1000    Horsham S1
+Call:
+morris(model = NULL, factors = 22, r = 1000, design = list(type = "oat",     levels = 10, grid.jump = 5), binf = c(-36.67, 120, 400, 0,     100, 30, 0.2, 260, 50, 90, 0, 0, 0, 10.7, 10.9, 10.6, 0,     0, 0, 152, 152, 168), bsup = c(-23.569, 140, 600, 250, 200,     40, 1, 340, 340, 200, 18.8, 16.8, 19.2, 33, 33.2, 36, 295,     378, 379, 633, 743, 803), scale = TRUE)
+
+Model runs: 23000 
+mu :
+                       [,1]
+Lat               44.931347
+ShootLag          36.652738
+VegTarget         47.516350
+LateVegTarget     36.033829
+FloweringTarget   -5.696161
+Population        67.439697
+FracPAWCmm       -99.233075
+PAWCmm           -65.843133
+sowingESW        151.488929
+SowingDOY        -61.700633
+AvgMinT0_30      -61.796801
+AvgMinT30_60       3.355426
+AvgMinT60_90    -184.144563
+AvgMaxT0_30      -31.924160
+AvgMaxT30_60    -183.613062
+AvgMaxT60_90    -308.678823
+Rain0_30          59.715689
+Rain30_60         31.610040
+Rain60_90         59.716097
+Radn0_30          52.921017
+Radn30_60        122.447213
+Radn60_90        104.879082
+
+mu.star :
+                     [,1]
+Lat              52.03043
+ShootLag         37.12880
+VegTarget        49.33035
+LateVegTarget    47.61270
+FloweringTarget  12.84916
+Population       69.41267
+FracPAWCmm      131.12224
+PAWCmm           82.60494
+sowingESW       178.42883
+SowingDOY        75.65034
+AvgMinT0_30      87.47348
+AvgMinT30_60     64.63877
+AvgMinT60_90    193.89494
+AvgMaxT0_30      43.23977
+AvgMaxT30_60    186.15622
+AvgMaxT60_90    309.50810
+Rain0_30         68.14182
+Rain30_60        79.09700
+Rain60_90       107.67823
+Radn0_30         71.27861
+Radn30_60       128.77830
+Radn60_90       114.69255
+
+sigma :
+                     [,1]
+Lat             108.02211
+ShootLag         26.78230
+VegTarget        41.30476
+LateVegTarget    55.67301
+FloweringTarget  15.44370
+Population       91.82300
+FracPAWCmm      132.88862
+PAWCmm          137.29265
+sowingESW       159.94165
+SowingDOY        80.19638
+AvgMinT0_30      95.77929
+AvgMinT30_60     84.12046
+AvgMinT60_90    149.56569
+AvgMaxT0_30      46.84506
+AvgMaxT30_60    124.03995
+AvgMaxT60_90    145.71967
+Rain0_30         83.08494
+Rain30_60       106.95791
+Rain60_90       130.06580
+Radn0_30         79.45224
+Radn30_60       107.99528
+Radn60_90       103.45947
+
+
+ <<<< Time Taken for analysis:  0.086  seconds 
+
+
+>>>New Analysis: -  GrainWt  Sample size:  1000    Horsham S2
+Call:
+morris(model = NULL, factors = 22, r = 1000, design = list(type = "oat",     levels = 10, grid.jump = 5), binf = c(-36.67, 120, 400, 0,     100, 30, 0.2, 260, 50, 90, 0, 0, 0, 10.7, 10.9, 10.6, 0,     0, 0, 152, 152, 168), bsup = c(-23.569, 140, 600, 250, 200,     40, 1, 340, 340, 200, 18.8, 16.8, 19.2, 33, 33.2, 36, 295,     378, 379, 633, 743, 803), scale = TRUE)
+
+Model runs: 23000 
+mu :
+                        [,1]
+Lat               48.8520724
+ShootLag          35.8630581
+VegTarget         50.1257828
+LateVegTarget     34.2385516
+FloweringTarget   -5.5788079
+Population        75.0922337
+FracPAWCmm       -85.2647598
+PAWCmm           -67.2446351
+sowingESW        149.4668160
+SowingDOY        -66.9233982
+AvgMinT0_30      -62.6552838
+AvgMinT30_60       0.5462797
+AvgMinT60_90    -168.5533642
+AvgMaxT0_30      -32.0264634
+AvgMaxT30_60    -177.9055946
+AvgMaxT60_90    -297.8729422
+Rain0_30          60.8858126
+Rain30_60         34.6629917
+Rain60_90         56.3166194
+Radn0_30          50.2691043
+Radn30_60        116.1131547
+Radn60_90        107.0578588
+
+mu.star :
+                     [,1]
+Lat              55.95678
+ShootLag         36.41165
+VegTarget        51.29503
+LateVegTarget    45.22196
+FloweringTarget  13.15984
+Population       76.95268
+FracPAWCmm      132.43843
+PAWCmm           83.39660
+sowingESW       172.15086
+SowingDOY        78.69269
+AvgMinT0_30      87.48703
+AvgMinT30_60     69.87597
+AvgMinT60_90    182.50521
+AvgMaxT0_30      43.66229
+AvgMaxT30_60    180.52993
+AvgMaxT60_90    299.58478
+Rain0_30         69.18815
+Rain30_60        77.38998
+Rain60_90       107.21541
+Radn0_30         70.11449
+Radn30_60       123.67442
+Radn60_90      140
+
+sigma :
+                     [,1]
+Lat             119.28255
+ShootLag         26.17859
+VegTarget        42.35212
+LateVegTarget    51.70471
+FloweringTarget  16.04449
+Population      104.24724
+FracPAWCmm      143.76558
+PAWCmm          128.32041
+sowingESW       154.40501
+SowingDOY        78.56976
+AvgMinT0_30      95.89127
+AvgMinT30_60     89.26690
+AvgMinT60_90    153.62381
+AvgMaxT0_30      49.77229
+AvgMaxT30_60    120.62916
+AvgMaxT60_90    146.37746
+Rain0_30         85.24478
+Rain30_60       104.76073
+Rain60_90       127.40195
+Radn0_30         78.09284
+Radn30_60       105.33798
+Radn60_90       104.00632
+
+
+ <<<< Time Taken for analysis:  0.109  seconds 
+
+
+>>>New Analysis: -  GrainWt  Sample size:  1000    Horsham S3
+Call:
+morris(model = NULL, factors = 22, r = 1000, design = list(type = "oat",     levels = 10, grid.jump = 5), binf = c(-36.67, 120, 400, 0,     100, 30, 0.2, 260, 50, 90, 0, 0, 0, 10.7, 10.9, 10.6, 0,     0, 0, 152, 152, 168), bsup = c(-23.569, 140, 600, 250, 200,     40, 1, 340, 340, 200, 18.8, 16.8, 19.2, 33, 33.2, 36, 295,     378, 379, 633, 743, 803), scale = TRUE)
+
+Model runs: 23000 
+mu :
+                       [,1]
+Lat               39.267607
+ShootLag          35.753251
+VegTarget         47.841466
+LateVegTarget     33.180645
+FloweringTarget   -6.741015
+Population        72.924275
+FracPAWCmm       -85.891595
+PAWCmm           -54.338499
+sowingESW        155.403487
+SowingDOY        -64.291114
+AvgMinT0_30      -63.911951
+AvgMinT30_60       3.351397
+AvgMinT60_90    -176.770122
+AvgMaxT0_30      -34.370044
+AvgMaxT30_60    -177.334994
+AvgMaxT60_90    -298.037426
+Rain0_30          57.006361
+Rain30_60         39.786238
+Rain60_90         63.600125
+Radn0_30          52.876853
+Radn30_60        124.143739
+Radn60_90        112.828902
+
+mu.star :
+                     [,1]
+Lat              46.72004
+ShootLag         36.33710
+VegTarget        50.15085
+LateVegTarget    47.80917
+FloweringTarget  12.64124
+Population       74.87558
+FracPAWCmm      130.44849
+PAWCmm           72.06353
+sowingESW       180.01946
+SowingDOY        77.59250
+AvgMinT0_30      89.40308
+AvgMinT30_60     64.28730
+AvgMinT60_90    184.85529
+AvgMaxT0_30      44.16021
+AvgMaxT30_60    179.37715
+AvgMaxT60_90    299.40855
+Rain0_30         66.54012
+Rain30_60        80.21541
+Rain60_90       103.65218
+Radn0_30         72.23150
+Radn30_60       130.75863
+Radn60_90       120.60107
+
+sigma :
+                     [,1]
+Lat             100.07028
+ShootLag         26.50120
+VegTarget        42.93697
+LateVegTarget    57.63886
+FloweringTarget  14.85279
+Population      103.96251
+FracPAWCmm      140.05762
+PAWCmm          112.60733
+sowingESW       162.61887
+SowingDOY        79.36316
+AvgMinT0_30      94.54986
+AvgMinT30_60     82.96732
+AvgMinT60_90   150
+AvgMaxT0_30      46.43122
+AvgMaxT30_60    121.57009
+AvgMaxT60_90    150.52512
+Rain0_30         81.59010
+Rain30_60       106.75602
+Rain60_90       117.53662
+Radn0_30         79.44390
+Radn30_60       107.83120
+Radn60_90       100.71888
+
+
+ <<<< Time Taken for analysis:  0.094  seconds 

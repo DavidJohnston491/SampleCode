@@ -1,0 +1,35 @@
+ Irrigated sowing                  ! Mode, Met format, Title
+
+ Simulation run:- 16 Apr 2014  12:17   (OZCOT ver 2014, 3, 1, 0)              
+
+ Mode 2: analysis of strategy, risk or "what if" scenario.
+ Using met data file with id "  GRIF", starting on day   1, 2004.
+ APSIM 2001 format. Latitude  -34.25, Longitude  146.07.
+ Variety S71B; Rowspacing 1.0 m;  12 plants per m row; sowing depth 5.0 cm.
+ Irrigated crop; solid plant.
+ Sowing on day 214, specified in AGRON.INP file.
+ OZCOT decides when to irrigate.
+ Pre-irrigate  12 days before sowing.
+ Crop irrigated at  70 mm deficit; allocation  12.0 Ml per ha; efficiency 100%.
+ No irrigation until   2 days after 1st square; nor after  60% bolls open.
+ Soil nitrogen  200. kg per ha;
+ Fertiliser N   50. kg per ha applied on day 354.
+ Soil water reset on day 201.
+
+ *******************************************************************************************************************
+
+
+ YEAR SOWN   BOLL  LINT_Kg BALES  SCBO  MLAI  NUPT  MAT  DFS  DFF  DFB   ET NoIR PREI IRIG NoRD RAIN IRSW SWDE  dSW RUNO TOTI   WUE
+
+ 2004  214  125.8   2184.3  9.62  4.34  3.46  178.   74  330  357   39  871   12    0  767   51  157  767  275   22    4  812  2.51
+ 2005  213  132.3   2319.0 10.22  4.38  3.20  181.   77  329  362   37 1050   13    3  887   42  279  885  289    0   35 1030  2.21
+ 2006  213  134.0   2426.4 10.69  4.53  3.71  183.   73  324  352   34  953   15    8  993   24   48  911  264   31    0  931  2.55
+ 2007  213  139.8   2504.9 11.03  4.48  3.78  176.   72  319  348   30  882   11   27  753   43  239  653  256   44    0  842  2.84
+ 2008  214  114.1   1630.0  7.18  3.57  3.83  179.   68  318  358   40  902   12    0  790   33  173  790  297   -4    0  855  1.81
+ 2009  213  121.9   2227.1  9.81  4.57  3.44  175.   62  316  345   29  895   12   10  765   47  207  755  293   -1   12  851  2.49
+ 2010  213   91.6   1610.4  7.09  4.40  3.03  179.   75  336    2   57  804    8   14  482   77  551  468  280   21  120  788  2.00
+ 2011  213  131.5   2389.4 10.53  4.54  3.98  177.   88  320  355   43  832   11   12  709   64  488  627  246   44  244  810  2.87
+ 2012  214  139.8   2494.4 10.99  4.46  3.41  184.   78  330  358   38  961   13    0  842   33  199  842  264   28   47  929  2.60
+ 2013  213  114.1   1961.5  8.64  4.30  3.32  178.   81  325  355   39  940   13    3  848   40  176  844  273   18   26  923  2.09
+
+  << END-OF-FILE  >>

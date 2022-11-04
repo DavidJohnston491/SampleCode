@@ -1,0 +1,178 @@
+Report on nnet model development for   Six Locations (nnet) 
+ 
+
+
+ 
+Development Model Configuration # 1  with  26185 datapoints used for output  EmergenceDAS . 
+
+# weights:  521
+initial  value 12698.015857 
+iter  10 value 266.892527
+iter  20 value 127.742480
+iter  30 value 105.678649
+iter  40 value 101.322641
+iter  50 value 99.291165
+iter  60 value 98.401286
+iter  70 value 97.845041
+iter  80 value 97.512539
+iter  90 value 97.194156
+iter 100 value 96.952724
+final  value 96.952724 
+stopped after 100 iterations
+
+Model development time:  54.302 seconds.
+
+  ModelNo       Target          MB       MAE     RMSE        R2       IOA       COE
+1       1 EmergenceDAS 0.001414782 0.6825845 0.878317 0.9503084 0.8946689 0.7893377
+
+ 
+
+ 
+Development Model Configuration # 2  with  26185 datapoints used for output  FloweringDAS . 
+
+# weights:  521
+initial  value 14595.478579 
+iter  10 value 225.697851
+iter  20 value 87.072011
+iter  30 value 55.352146
+iter  40 value 40.272896
+iter  50 value 28.732522
+iter  60 value 21.410812
+iter  70 value 16.634359
+iter  80 value 13.899726
+iter  90 value 11.835710
+iter 100 value 10.809262
+final  value 10.809262 
+stopped after 100 iterations
+
+Model development time:  56.18 seconds.
+
+  ModelNo       Target          MB     MAE     RMSE        R2       IOA       COE
+1       2 FloweringDAS -0.02862693 1.08788 1.474191 0.9949773 0.9675437 0.9350873
+
+ 
+
+ 
+Development Model Configuration # 3  with  26185 datapoints used for output  PoddingDAS . 
+
+# weights:  521
+initial  value 3380.803742 
+iter  10 value 366.781736
+iter  20 value 234.414695
+iter  30 value 166.107287
+iter  40 value 140.401978
+iter  50 value 130.743701
+iter  60 value 125.597321
+iter  70 value 121.867007
+iter  80 value 119.041827
+iter  90 value 115.485253
+iter 100 value 113.102855
+final  value 113.102855 
+stopped after 100 iterations
+
+Model development time:  57.567 seconds.
+
+  ModelNo     Target          MB      MAE     RMSE        R2       IOA      COE
+1       3 PoddingDAS -0.04790226 5.112541 7.891713 0.9479547 0.9088025 0.817605
+
+ 
+
+ 
+Development Model Configuration # 4  with  26185 datapoints used for output  MaturityDAS . 
+
+# weights:  521
+initial  value 12267.283695 
+iter  10 value 250.694265
+iter  20 value 108.739371
+iter  30 value 59.135578
+iter  40 value 47.438264
+iter  50 value 41.621862
+iter  60 value 38.441619
+iter  70 value 36.835485
+iter  80 value 35.992926
+iter  90 value 35.398551
+iter 100 value 34.680287
+final  value 34.680287 
+stopped after 100 iterations
+
+Model development time:  56.144 seconds.
+
+  ModelNo      Target         MB      MAE     RMSE        R2       IOA       COE
+1       4 MaturityDAS 0.02057005 3.280066 4.706012 0.9799497 0.9393217 0.8786434
+
+ 
+
+ 
+Development Model Configuration # 5  with  26185 datapoints used for output  Biomass . 
+
+# weights:  521
+initial  value 8794.066996 
+iter  10 value 1546.930028
+iter  20 value 1022.317628
+iter  30 value 763.493734
+iter  40 value 643.961223
+iter  50 value 571.626248
+iter  60 value 521.297729
+iter  70 value 472.306433
+iter  80 value 435.036427
+iter  90 value 414.473978
+iter 100 value 398.321811
+final  value 398.321811 
+stopped after 100 iterations
+
+Model development time:  57.311 seconds.
+
+  ModelNo  Target         MB      MAE     RMSE        R2       IOA       COE
+1       5 Biomass -0.7232945 73.85414 99.29026 0.9270093 0.8822663 0.7645327
+
+ 
+
+ 
+Development Model Configuration # 6  with  26185 datapoints used for output  GrainWt . 
+
+# weights:  521
+initial  value 8194.798425 
+iter  10 value 1468.619049
+iter  20 value 1020.265052
+iter  30 value 790.512283
+iter  40 value 651.043193
+iter  50 value 559.088545
+iter  60 value 524.830115
+iter  70 value 504.974322
+iter  80 value 487.235793
+iter  90 value 465.245738
+iter 100 value 442.453815
+final  value 442.453815 
+stopped after 100 iterations
+
+Model development time:  53.033 seconds.
+
+  ModelNo  Target        MB      MAE     RMSE        R2       IOA       COE
+1       6 GrainWt -1.198681 33.96717 46.35116 0.9152541 0.8748109 0.7496217
+
+ 
+"ModelNo"		"Target"		"MB"		"MAE"		"RMSE"		"R2"		"IOA"		"COE"
+"2"		1		"EmergenceDAS"		0.00141478178350425		0.682584459679267		0.878317008340701		0.950308420593857		0.894668871072128		0.789337742144256
+"3"		2		"FloweringDAS"		-0.0286269292032766		1.08788021656943		1.47419098693361		0.994977315803565		0.967543654973405		0.935087309946809
+"4"		3		"PoddingDAS"		-0.0479022556731594		5.11254069392796		7.8917133917943		0.947954699373089		0.908802507352209		0.817605014704417
+"5"		4		"MaturityDAS"		0.0205700489341837		3.28006649392285		4.70601197417592		0.979949742534399		0.939321695107206		0.878643390214411
+"6"		5		"Biomass"		-0.723294492121548		73.8541395657696		99.2902624267808		0.927009318995064		0.882266330880099		0.764532661760197
+"7"		6		"GrainWt"		-1.19868090781331		33.9671682407191		46.3511573912983		0.915254095954273		0.874810854897508		0.749621709795015
+
+ 
+BEST MODEL IS ... 
+
+  ModelNo       Target          MB     MAE     RMSE        R2       IOA       COE
+3       2 FloweringDAS -0.02862693 1.08788 1.474191 0.9949773 0.9675437 0.9350873
+
+ 
+ 
+[38;5;246m# A tibble: 6 x 3[39m
+  Target       bestR2 bestCOE
+  [3m[38;5;246m<chr>[39m[23m         [3m[38;5;246m<dbl>[39m[23m   [3m[38;5;246m<dbl>[39m[23m
+[38;5;250m1[39m Biomass       0.927   0.765
+[38;5;250m2[39m EmergenceDAS  0.950   0.789
+[38;5;250m3[39m FloweringDAS  0.995   0.935
+[38;5;250m4[39m GrainWt       0.915   0.750
+[38;5;250m5[39m MaturityDAS   0.980   0.879
+[38;5;250m6[39m PoddingDAS    0.948   0.818

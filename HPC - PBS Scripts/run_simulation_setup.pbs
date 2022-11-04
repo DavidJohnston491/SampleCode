@@ -1,0 +1,81 @@
+#!/bin/bash
+#
+######
+# Name:        run_simulation_setup.pbs
+# Description: pbs file to setup apsim simulations temporary 
+#              working directory and copy files 
+#
+# set jobname
+#PBS -N Apsim_Simulation_Setup
+
+# set job resources
+# [change these resources settings as required]
+#PBS -l ncpus=20
+#PBS -l walltime=48:00:00
+#PBS -l mem=96gb
+
+# set project code
+# [change this to the correct project code]
+#PBS -P IAgE_AGSMG_season
+
+# set default for email notifications
+# [change this to the correct email address]
+#PBS -m bea
+#PBS -M afshin.ghahramani@usq.edu.au
+
+# get system variables
+#PBS -V
+
+# change to working directory
+cd $PBS_O_WORKDIR
+
+# set temporary directory
+TMPDIR=/sandisk1/${USER}/${PBS_JOBID}
+PBS_TMPDIR=${TMPDIR}
+echo ${PBS_JOBID} > apsim_sim_setupjobid
+
+# create temporary directory if it doesn't exist and copy files
+if [ ! -d "${TMPDIR}" ]; then
+   # create tmpdir
+   mkdir -p ${TMPDIR}
+   # copy apsim files to tmpdir
+   find . -name "*.apsim" -exec cp -np {} ${TMPDIR} \;
+   # copy R testing scripts to tmpdir
+   find . -name "*.R" -exec cp -np {} ${TMPDIR} \;
+   # copy met files to tmpdir
+   find . -name "*.met" -exec cp -np {} ${TMPDIR} \;
+   # change to temporary directory
+   cd ${TMPDIR}
+   pwd
+
+   # change setwd in all R files to tmpdir
+   if [ "ls *.R" ]; then
+      /bin/sed -i 's/.*setwd.*/setwd\(\"\.\"\)/' *.R
+   fi
+
+   # create file with list of apsim files in it
+   filelinenum=0
+   for apfilename in `ls -1 *.apsim`
+   do
+      filelinenum=`expr $filelinenum + 1`
+      echo $filelinenum $apfilename >> ${TMPDIR}/apsim_file.list
+   done
+
+   # create file with list of R files in it
+   if [ "ls *.R" ]; then
+      filelinenum=0
+      for rfilename in `ls -1 *.R`
+      do
+         filelinenum=`expr $filelinenum + 1`
+         echo $filelinenum $rfilename >> ${TMPDIR}/rtesting_file.list
+      done
+   fi
+fi
+
+# required to allow the copying of files to complete
+/bin/sync
+sleep 30
+
+#
+# The End
+#

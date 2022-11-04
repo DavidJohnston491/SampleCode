@@ -1,0 +1,22 @@
+25 ETo studies - 100mm deficit - 3 day avg ETo forecast - 5% High and Low adjustments to 100mm
+15,10,00
+5,1.0,12.0
+0,0,0
+1,200
+360,100
+-1,100,1200,85,5,60,0,0,0,                      !WaterUp 1 day after sowing,100mm def,allocation 1200mm(12Ml),85%eff,start 5DAFS,until 60% open,no change def, ,no rationing
+
+
+
+[RUN OPTIONS]
+xDaysForecast=3
+!CriticalEToLowSum=20
+CriticalEToLowAvg=5   
+LowEToAdjFactor=1.05 
+!CriticalEToHighSum=28   
+CriticalEToHighAvg=7  
+HighEToAdjFactor=0.95
+
+
+[OUTPUT]
+!! SoilWaterOut= yes

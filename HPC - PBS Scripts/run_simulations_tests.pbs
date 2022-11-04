@@ -1,0 +1,60 @@
+#!/bin/bash
+#
+######
+# Name:        run_simulations_tests.pbs
+# Description: pbs file to test apsim simulations results
+#
+# set jobname
+#PBS -N FallowARM_Badgingarra_Apsim_Simulations
+
+# set project code
+# Keith (muggle) instuction this is the project code account and some text to identify
+# [change this to the correct project code]
+#PBS -P 459040_1007150_HPSCRC
+
+# set job resources
+# [change these resources settings as required]
+#PBS -l ncpus=4
+#PBS -l walltime=72:00:00
+#PBS -l mem=30gb
+
+# set default for email notifications
+# modify email adress to suite, typically have it to yourself
+# [change this to the correct email address]
+#PBS -m bea
+#PBS -M keith.pembleton@usq.edu.au
+
+
+# get system variables
+#PBS -V
+
+# load R module
+#
+# NOTE: this line was changed
+#
+module load r/4.0.4-gcc8.3.1-ygf
+
+# change to working directory - dir where script was run from
+cd $PBS_O_WORKDIR
+
+# set temporary directories
+JOB_TMP_DIR=${TMP_WORKDIR}
+TMPDIR=/sandisk1/${USER}/${JOB_TMP_DIR}
+PBS_TMPDIR=${TMPDIR}
+
+# change directory to temporary working directory
+cd ${TMPDIR}
+# if there is only 1 r file
+r_file_no=`cat rtesting_file.list|wc -l`
+if [ ${r_file_no} = 1 ]; then
+   PBS_ARRAY_INDEX=1
+fi
+
+# get R file list and submit array to cluster
+parameters=`sed -n "${PBS_ARRAY_INDEX} p" rtesting_file.list`
+RSCRIPTNAME=`echo $parameters | cut -d ' ' -f 2`
+echo "starting R via PBS" > Rlog.txt
+Rscript ${RSCRIPTNAME}
+
+#
+# The End

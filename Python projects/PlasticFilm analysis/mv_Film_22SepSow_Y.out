@@ -1,0 +1,35 @@
+ Irrigated sowing                  ! Mode, Met format, Title
+
+ Simulation run:- 16 Apr 2014  12:17   (OZCOT ver 2014, 3, 1, 0)              
+
+ Mode 2: analysis of strategy, risk or "what if" scenario.
+ Using met data file with id " ACRI ", starting on day   1, 2004.
+ APSIM 2001 format. Latitude  -30.12, Longitude  149.35.
+ Variety S71B; Rowspacing 1.0 m;  12 plants per m row; sowing depth 5.0 cm.
+ Irrigated crop; solid plant.
+ Sowing on day 266, specified in AGRON.INP file.
+ OZCOT decides when to irrigate.
+ Pre-irrigate  12 days before sowing.
+ Crop irrigated at  70 mm deficit; allocation  12.0 Ml per ha; efficiency 100%.
+ No irrigation until   2 days after 1st square; nor after  60% bolls open.
+ Soil nitrogen  200. kg per ha;
+ Fertiliser N   50. kg per ha applied on day 354.
+ Soil water reset on day 253.
+
+ *******************************************************************************************************************
+
+
+ YEAR SOWN   BOLL  LINT_Kg BALES  SCBO  MLAI  NUPT  MAT  DFS  DFF  DFB   ET NoIR PREI IRIG NoRD RAIN IRSW SWDE  dSW RUNO TOTI   WUE
+
+ 2004  266  135.6   2444.9 10.77  4.51  3.61  187.   69  318  348   29  868   10    0  678   45  466  604  292   24  186  772  2.82
+ 2005  265  105.1   1772.2  7.81  4.22  2.56  184.   39  313  344   20  794    8    6  525   27  406  519  293   22  106  749  2.23
+ 2006  265  132.7   2633.9 11.60  4.96  3.23  191.   59  312  338   21  835   11    6  741   33  152  735  319   -3   18  788  3.15
+ 2007  265  145.6   2503.0 11.03  4.30  4.77  189.   97  315  344   32  854    9    6  587   55  354  581  291   25   67  810  2.93
+ 2008  266  143.3   2433.5 10.72  4.25  3.29  183.   76  317  347   25  924   11    0  741   47  400  667  290   25  106  900  2.63
+ 2009  265  104.4   2032.1  8.95  4.87  2.77  180.   64  319  340   23  784   10    1  619   47  461  544  289   33  192  757  2.59
+ 2010  265  135.5   2311.5 10.18  4.26  3.40  174.   69  323  357   37  862    9    5  611   54  500  605  307    9  181  796  2.68
+ 2011  265  103.0   2140.1  9.43  5.19  3.89  164.   78  321  355   47  783    6    0  364   70  809  364  306   10  322  761  2.73
+ 2012  266  127.3   2247.6  9.90  4.42  3.07  185.   55  321  345   21  803   11    0  702   36  210  702  311    4   78  762  2.80
+ 2013     Crop sown; met data ended before maturity.
+
+  << END-OF-FILE  >>

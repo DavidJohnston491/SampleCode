@@ -1,0 +1,159 @@
+Report on nnet model development for   Six Locations (nnet) 
+ 
+
+ Development Model KFold # 1  with  26185 datapoints used for output/validation  EmergenceDAS .    Model development time:  60.594 seconds.
+ Development Model KFold # 2  with  26185 datapoints used for output/validation  EmergenceDAS .    Model development time:  54.552 seconds.
+ Development Model KFold # 3  with  26185 datapoints used for output/validation  EmergenceDAS .    Model development time:  56 seconds.
+ Development Model KFold # 4  with  26185 datapoints used for output/validation  EmergenceDAS .    Model development time:  55.947 seconds.
+ Development Model KFold # 5  with  26185 datapoints used for output/validation  EmergenceDAS .    Model development time:  59.844 seconds.
+ Development Model KFold # 6  with  26185 datapoints used for output/validation  EmergenceDAS .    Model development time:  56.79 seconds.
+ Development Model KFold # 7  with  26185 datapoints used for output/validation  EmergenceDAS .    Model development time:  51.968 seconds.
+ Development Model KFold # 8  with  26185 datapoints used for output/validation  EmergenceDAS .    Model development time:  56.313 seconds.
+ Development Model KFold # 9  with  26185 datapoints used for output/validation  EmergenceDAS .    Model development time:  56.924 seconds.
+ Development Model KFold # 10  with  26185 datapoints used for output/validation  EmergenceDAS .    Model development time:  57.386 seconds.
+
+ 
+
+ Development Model KFold # 1  with  26185 datapoints used for output/validation  FloweringDAS .    Model development time:  55.012 seconds.
+ Development Model KFold # 2  with  26185 datapoints used for output/validation  FloweringDAS .    Model development time:  57.385 seconds.
+ Development Model KFold # 3  with  26185 datapoints used for output/validation  FloweringDAS .    Model development time:  59.728 seconds.
+ Development Model KFold # 4  with  26185 datapoints used for output/validation  FloweringDAS .    Model development time:  59.438 seconds.
+ Development Model KFold # 5  with  26185 datapoints used for output/validation  FloweringDAS .    Model development time:  58.197 seconds.
+ Development Model KFold # 6  with  26185 datapoints used for output/validation  FloweringDAS .    Model development time:  58.339 seconds.
+ Development Model KFold # 7  with  26185 datapoints used for output/validation  FloweringDAS .    Model development time:  58.131 seconds.
+ Development Model KFold # 8  with  26185 datapoints used for output/validation  FloweringDAS .    Model development time:  57.199 seconds.
+ Development Model KFold # 9  with  26185 datapoints used for output/validation  FloweringDAS .    Model development time:  59.354 seconds.
+ Development Model KFold # 10  with  26185 datapoints used for output/validation  FloweringDAS .    Model development time:  60.423 seconds.
+
+ 
+
+ Development Model KFold # 1  with  26185 datapoints used for output/validation  PoddingDAS .    Model development time:  26.43 seconds.
+ Development Model KFold # 2  with  26185 datapoints used for output/validation  PoddingDAS .    Model development time:  57.641 seconds.
+ Development Model KFold # 3  with  26185 datapoints used for output/validation  PoddingDAS .    Model development time:  57.135 seconds.
+ Development Model KFold # 4  with  26185 datapoints used for output/validation  PoddingDAS .    Model development time:  57.037 seconds.
+ Development Model KFold # 5  with  26185 datapoints used for output/validation  PoddingDAS .    Model development time:  56.187 seconds.
+ Development Model KFold # 6  with  26185 datapoints used for output/validation  PoddingDAS .    Model development time:  59.103 seconds.
+ Development Model KFold # 7  with  26185 datapoints used for output/validation  PoddingDAS .    Model development time:  54.464 seconds.
+ Development Model KFold # 8  with  26185 datapoints used for output/validation  PoddingDAS .    Model development time:  57.927 seconds.
+ Development Model KFold # 9  with  26185 datapoints used for output/validation  PoddingDAS .    Model development time:  58.022 seconds.
+ Development Model KFold # 10  with  26185 datapoints used for output/validation  PoddingDAS .    Model development time:  56.876 seconds.
+
+ 
+
+ Development Model KFold # 1  with  26185 datapoints used for output/validation  MaturityDAS .    Model development time:  55.912 seconds.
+ Development Model KFold # 2  with  26185 datapoints used for output/validation  MaturityDAS .    Model development time:  56.428 seconds.
+ Development Model KFold # 3  with  26185 datapoints used for output/validation  MaturityDAS .    Model development time:  53.654 seconds.
+ Development Model KFold # 4  with  26185 datapoints used for output/validation  MaturityDAS .    Model development time:  53.306 seconds.
+ Development Model KFold # 5  with  26185 datapoints used for output/validation  MaturityDAS .    Model development time:  57.266 seconds.
+ Development Model KFold # 6  with  26185 datapoints used for output/validation  MaturityDAS .    Model development time:  55.456 seconds.
+ Development Model KFold # 7  with  26185 datapoints used for output/validation  MaturityDAS .    Model development time:  55.373 seconds.
+ Development Model KFold # 8  with  26185 datapoints used for output/validation  MaturityDAS .    Model development time:  53.644 seconds.
+ Development Model KFold # 9  with  26185 datapoints used for output/validation  MaturityDAS .    Model development time:  55.789 seconds.
+ Development Model KFold # 10  with  26185 datapoints used for output/validation  MaturityDAS .    Model development time:  51.357 seconds.
+
+ 
+
+ Development Model KFold # 1  with  26185 datapoints used for output/validation  Biomass .    Model development time:  65.353 seconds.
+ Development Model KFold # 2  with  26185 datapoints used for output/validation  Biomass .    Model development time:  59.398 seconds.
+ Development Model KFold # 3  with  26185 datapoints used for output/validation  Biomass .    Model development time:  58.865 seconds.
+ Development Model KFold # 4  with  26185 datapoints used for output/validation  Biomass .    Model development time:  61.65 seconds.
+ Development Model KFold # 5  with  26185 datapoints used for output/validation  Biomass .    Model development time:  58.73 seconds.
+ Development Model KFold # 6  with  26185 datapoints used for output/validation  Biomass .    Model development time:  63.85 seconds.
+ Development Model KFold # 7  with  26185 datapoints used for output/validation  Biomass .    Model development time:  62.032 seconds.
+ Development Model KFold # 8  with  26185 datapoints used for output/validation  Biomass .    Model development time:  60.083 seconds.
+ Development Model KFold # 9  with  26185 datapoints used for output/validation  Biomass .    Model development time:  56.71 seconds.
+ Development Model KFold # 10  with  26185 datapoints used for output/validation  Biomass .    Model development time:  60.464 seconds.
+
+ 
+
+ Development Model KFold # 1  with  26185 datapoints used for output/validation  GrainWt .    Model development time:  59.877 seconds.
+ Development Model KFold # 2  with  26185 datapoints used for output/validation  GrainWt .    Model development time:  58.776 seconds.
+ Development Model KFold # 3  with  26185 datapoints used for output/validation  GrainWt .    Model development time:  59.807 seconds.
+ Development Model KFold # 4  with  26185 datapoints used for output/validation  GrainWt .    Model development time:  59.082 seconds.
+ Development Model KFold # 5  with  26185 datapoints used for output/validation  GrainWt .    Model development time:  56.801 seconds.
+ Development Model KFold # 6  with  26185 datapoints used for output/validation  GrainWt .    Model development time:  60.659 seconds.
+ Development Model KFold # 7  with  26185 datapoints used for output/validation  GrainWt .    Model development time:  59.48 seconds.
+ Development Model KFold # 8  with  26185 datapoints used for output/validation  GrainWt .    Model development time:  60.682 seconds.
+ Development Model KFold # 9  with  26185 datapoints used for output/validation  GrainWt .    Model development time:  60.282 seconds.
+ Development Model KFold # 10  with  26185 datapoints used for output/validation  GrainWt .    Model development time:  57.55 seconds.
+
+ 
+
+"ModelNo"		"Target"		"MB"		"MAE"		"RMSE"		"R2"		"IOA"		"COE"
+"2"		1		"EmergenceDAS"		-0.00328127327089324		0.684682094404222		0.880908920542907		0.949537141058105		0.894041013774326		0.788082027548652
+"3"		2		"EmergenceDAS"		0.00277117558123649		0.682220322891838		0.884008507065134		0.949441115611716		0.894775660073793		0.789551320147586
+"4"		3		"EmergenceDAS"		0.00204014085758617		0.677103980548017		0.874391394617203		0.951146223961102		0.895930812522295		0.79186162504459
+"5"		4		"EmergenceDAS"		0.00032611056372889		0.681370185061445		0.891441922938785		0.949447051924845		0.895643142169452		0.791286284338905
+"6"		5		"EmergenceDAS"		0.00933830747153714		0.689780016423764		0.889402197489743		0.9497331371588		0.894559423817612		0.789118847635223
+"7"		6		"EmergenceDAS"		0.00157037660162759		0.681151778191242		0.875473393979268		0.950948807355543		0.89558678978771		0.79117357957542
+"8"		7		"EmergenceDAS"		-0.0146205350936875		0.686006467890683		0.890666320576826		0.949569229494804		0.894941300455118		0.789882600910236
+"9"		8		"EmergenceDAS"		0.00157135330418464		0.684404628663316		0.882333431394322		0.950966345801215		0.895621157357561		0.791242314715121
+"10"		9		"EmergenceDAS"		0.00629511084207261		0.683123573064528		0.892942572644543		0.950006441917968		0.896220121871243		0.792440243742486
+"11"		10		"EmergenceDAS"		-0.00266658897867912		0.681135014828699		0.87654451511383		0.951425041653051		0.896315620134935		0.79263124026987
+"12"		1		"FloweringDAS"		-0.00844055596873615		1.0233538715001		1.40637440477306		0.995438776042681		0.969537029927032		0.939074059854064
+"13"		2		"FloweringDAS"		0.0127622664603498		1.22264157746848		1.65751712386002		0.993621490470225		0.963484666829495		0.92696933365899
+"14"		3		"FloweringDAS"		-0.0296521454726639		1.12331321700658		1.54135819027599		0.994582231310575		0.966728553702783		0.933457107405566
+"15"		4		"FloweringDAS"		-0.0120447763427764		1.08041990982828		1.47953102092911		0.994940451447062		0.967772427206291		0.935544854412582
+"16"		5		"FloweringDAS"		-0.00706573988995264		1.06977174807979		1.45597391586447		0.995039748325665		0.96791437451772		0.935828749035439
+"17"		6		"FloweringDAS"		-0.0116080275634965		1.16991427742919		1.56976881978375		0.994283968934966		0.965098678577437		0.930197357154873
+"18"		7		"FloweringDAS"		-0.00171680329788323		1.06541372772923		1.45621750457212		0.995139062772854		0.968389300399066		0.936778600798132
+"19"		8		"FloweringDAS"		-0.100732521537764		1.16658486295221		1.59624044386166		0.994123999415601		0.965242274773432		0.930484549546864
+"20"		9		"FloweringDAS"		0.0174285943995742		1.11886923764283		1.52805929379289		0.994629295167948		0.966784847013176		0.933569694026352
+"21"		10		"FloweringDAS"		0.0202240826029653		1.15142072632209		1.55511178126408		0.994451400667347		0.965920815750234		0.931841631500469
+"22"		1		"PoddingDAS"		-0.139583127903495		5.55209636180079		8.14339399145121		0.944808777620139		0.901416675125871		0.802833350251742
+"23"		2		"PoddingDAS"		-0.126021114514557		5.13714751703396		7.88324922249312		0.947956221730137		0.908249692666961		0.816499385333921
+"24"		3		"PoddingDAS"		0.0495971680652039		5.06579158587457		7.7317958746854		0.951108242214792		0.910776621317		0.821553242633999
+"25"		4		"PoddingDAS"		-0.137813600509594		5.13458949977724		7.82105219214111		0.948947345544424		0.908755889912064		0.817511779824128
+"26"		5		"PoddingDAS"		0.0374658403012431		5.16682193539619		7.8721190222787		0.948381220284573		0.908270727520808		0.816541455041616
+"27"		6		"PoddingDAS"		-0.0220453780957457		5.23541193978891		7.89561213868709		0.948069559911018		0.906835786574292		0.813671573148584
+"28"		7		"PoddingDAS"		0.0134982365895233		5.09612375030518		7.76901129532131		0.949846217169492		0.909550688113857		0.819101376227715
+"29"		8		"PoddingDAS"		0.0699593465013092		4.98719216426171		7.65808925176788		0.950913451031328		0.911077429386376		0.822154858772751
+"30"		9		"PoddingDAS"		0.0160796536448887		5.06570470588073		7.81168758426169		0.948507120789107		0.909074478358247		0.818148956716494
+"31"		10		"PoddingDAS"		-0.0242467846234467		5.07486244028119		7.79471488204182		0.94894931782127		0.909280150502982		0.818560301005963
+"32"		1		"MaturityDAS"		-0.0341630339544214		3.25860102792903		4.7013137812498		0.979996016282087		0.939940587850483		0.879881175700965
+"33"		2		"MaturityDAS"		0.0139262287735447		3.21441485672865		4.57376523682386		0.981098677411804		0.940481229169993		0.880962458339986
+"34"		3		"MaturityDAS"		-0.0482916210150748		3.25444395795143		4.63959275701175		0.980511614072334		0.939890421161993		0.879780842323987
+"35"		4		"MaturityDAS"		0.00132339840388877		3.27127887047232		4.71374436294807		0.979827450877588		0.939276049679646		0.878552099359292
+"36"		5		"MaturityDAS"		-0.0767477319726657		3.28493936694213		4.68743105848886		0.979921554501431		0.939033478376652		0.878066956753303
+"37"		6		"MaturityDAS"		-0.00915217624349523		3.21492252543887		4.64313240604168		0.98043882633292		0.940450254679187		0.880900509358374
+"38"		7		"MaturityDAS"		-0.0482916210150748		3.25444395795143		4.63959275701175		0.980511614072334		0.939890421161993		0.879780842323987
+"39"		8		"MaturityDAS"		-0.0719385582117817		3.28076300561305		4.67711475810558		0.98031912286408		0.939552895650105		0.87910579130021
+"40"		9		"MaturityDAS"		0.0667992412262185		3.26844953205324		4.66422924105741		0.980103105604892		0.939263600823652		0.878527201647304
+"41"		10		"MaturityDAS"		0.0441828278767102		3.24904191275448		4.68794088767089		0.980186757075394		0.940037434487252		0.880074868974503
+"42"		1		"Biomass"		0.626235680841971		75.4511127877325		101.254671377189		0.924331270924905		0.879905325955549		0.759810651911099
+"43"		2		"Biomass"		-0.590203074770412		76.018934463039		102.557183422451		0.922424736963618		0.878927068985491		0.757854137970982
+"44"		3		"Biomass"		-0.0897611023583791		76.4475299025296		102.004711879675		0.922218506393611		0.877001930692043		0.754003861384087
+"45"		4		"Biomass"		0.425779124404469		75.355105649012		101.385088850348		0.923567618963675		0.87958185179011		0.75916370358022
+"46"		5		"Biomass"		-0.777696666411132		74.4579714146078		100.450384692217		0.925743840715419		0.881586795291577		0.763173590583155
+"47"		6		"Biomass"		0.812994774795512		77.6706439335176		104.22425759712		0.919574523510761		0.876091645803056		0.752183291606112
+"48"		7		"Biomass"		-1.57400373084476		77.6340629619819		102.846824690736		0.921533044607631		0.875967224319008		0.751934448638016
+"49"		8		"Biomass"		0.405673663633084		75.1539235333481		100.613180894447		0.92530331711664		0.880385758753447		0.760771517506893
+"50"		9		"Biomass"		-2.93649796541465		75.5298865487571		101.525832826254		0.924116979131531		0.879771218842168		0.759542437684335
+"51"		10		"Biomass"		0.904449659061199		76.5846489020697		103.449683940994		0.921020983224405		0.877999915558812		0.755999831117623
+"52"		1		"GrainWt"		0.201721450607213		35.2843140830329		47.6551540808744		0.910007116429983		0.869790440523874		0.739580881047747
+"53"		2		"GrainWt"		1.44532307655067		35.0411122140597		47.2445391112298		0.912094715172653		0.871105311793527		0.742210623587055
+"54"		3		"GrainWt"		-1.15124272638231		35.4072980813498		47.6142982987674		0.909769483853615		0.868713424435196		0.737426848870392
+"55"		4		"GrainWt"		0.745495269659304		34.722196885612		47.283835728654		0.911270345648388		0.871610138168425		0.74322027633685
+"56"		5		"GrainWt"		-0.349973483474284		34.9902808088471		47.268326501862		0.911995780619767		0.871072775935179		0.742145551870357
+"57"		6		"GrainWt"		0.743078491444342		35.4443213960102		48.0383452396336		0.909142696535441		0.869609975441351		0.739219950882702
+"58"		7		"GrainWt"		-0.0571536863904589		35.4027412238647		48.172779851632		0.90817802771082		0.869527548941014		0.739055097882027
+"59"		8		"GrainWt"		-1.4155043717489		35.0140667258628		47.5583173310775		0.910659996592421		0.870758636927097		0.741517273854194
+"60"		9		"GrainWt"		0.514409468214909		36.2742757130264		48.8259662423381		0.90557994017962		0.866074657680238		0.732149315360477
+"61"		10		"GrainWt"		0.0847095250318541		35.3249271383433		48.179765607003		0.907656669444836		0.86926899746447		0.738537994928941
+
+ 
+ 
+
+ 
+ SUMMARY 
+
+        Target        meanMB        sdMB    meanMAE       sdMAE    meanRMSE      sdRMSE    meanR2         sdR2   meanIOA        sdIOA   meanCOE       sdCOE
+1 EmergenceDAS  0.0003344178 0.006448382  0.6830978 0.003409966   0.8838113 0.007004477 0.9502221 0.0008010214 0.8953635 0.0007509948 0.7907270 0.001501990
+2 FloweringDAS -0.0120845627 0.034713921  1.1191703 0.060184077   1.5246152 0.075614164 0.9946250 0.0005379320 0.9666873 0.0018002583 0.9333746 0.003600517
+3   PoddingDAS -0.0263109761 0.080074428  5.1515742 0.155951915   7.8380725 0.129553079 0.9487487 0.0017746199 0.9083288 0.0027223255 0.8166576 0.005444651
+4  MaturityDAS -0.0126734917 0.049765352  3.2552061 0.025757864   4.6653627 0.042305170 0.9802670 0.0003877875 0.9397696 0.0005212652 0.8795391 0.001042530
+5      Biomass -0.2793029637 1.224682962 76.0303820 1.055478207 102.0311820 1.227002203 0.9229835 0.0019696964 0.8787219 0.0018928303 0.7574437 0.003785661
+6      GrainWt  0.0760863014 0.875990941 35.2905534 0.417751739  47.7841328 0.512249860 0.9096355 0.0020609449 0.8697532 0.0015968263 0.7395064 0.003193653
+
+ 
+ 

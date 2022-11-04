@@ -1,0 +1,260 @@
+Report on EARTH model development for   Six Locations ML v2 (2 degrees of interaction) 
+ 
+
+
+ 
+Model Configuration # 1  with 26185 datapoints used for output EmergenceDAS. 
+
+
+Model development time:  6.337 seconds.
+
+  ModelNo       Target           MB       MAE      RMSE        R2       IOA       COE
+1       1 EmergenceDAS -0.000573502 0.6943123 0.8928149 0.9486544 0.8928591 0.7857182
+
+ 
+                       nsubsets   gcv    rss
+AvgMaxT0_30                  13 100.0  100.0
+ShootLag                     12  92.6   92.6
+AvgMinT0_30                  11  40.0   40.0
+SowingDOY                     9  16.7   16.7
+Lat-unused                    0   0.0    0.0
+PAWCmm-unused                 0   0.0    0.0
+sowingESW-unused              0   0.0    0.0
+FracPAWCmm-unused             0   0.0    0.0
+SowDepth-unused               0   0.0    0.0
+Population-unused             0   0.0    0.0
+Cv-unused                     0   0.0    0.0
+FloweringTarget-unused        0   0.0    0.0
+LateVegTarget-unused          0   0.0    0.0
+VegTarget-unused              0   0.0    0.0
+AvgMinT30_60-unused           0   0.0    0.0
+AvgMinT60_90-unused           0   0.0    0.0
+AvgMaxT30_60-unused           0   0.0    0.0
+AvgMaxT60_90-unused           0   0.0    0.0
+Rain0_30-unused               0   0.0    0.0
+Rain30_60-unused              0   0.0    0.0
+Rain60_90-unused              0   0.0    0.0
+Radn0_30-unused               0   0.0    0.0
+Radn30_60-unused              0   0.0    0.0
+Radn60_90-unused              0   0.0    0.0
+
+ 
+
+ 
+Model Configuration # 2  with 26185 datapoints used for output FloweringDAS. 
+
+
+Model development time:  21.539 seconds.
+
+  ModelNo       Target          MB      MAE     RMSE       R2       IOA      COE
+1       2 FloweringDAS 0.002204623 1.937808 2.538407 0.985103 0.9421865 0.884373
+
+ 
+                       nsubsets   gcv    rss
+AvgMaxT30_60                 30 100.0  100.0
+SowingDOY                    29  52.7   52.7
+Cv                           28  39.3   39.3
+AvgMinT30_60                 27  32.5   32.5
+AvgMinT0_30                  26  24.0   24.0
+Radn30_60                    24  17.6   17.6
+AvgMaxT0_30                  23  15.7   15.7
+AvgMaxT60_90                 21  11.6   11.6
+AvgMinT60_90                 19   9.5    9.5
+Radn60_90                    15   6.1    6.1
+Lat-unused                    0   0.0    0.0
+PAWCmm-unused                 0   0.0    0.0
+sowingESW-unused              0   0.0    0.0
+FracPAWCmm-unused             0   0.0    0.0
+SowDepth-unused               0   0.0    0.0
+Population-unused             0   0.0    0.0
+FloweringTarget-unused        0   0.0    0.0
+LateVegTarget-unused          0   0.0    0.0
+VegTarget-unused              0   0.0    0.0
+ShootLag-unused               0   0.0    0.0
+Rain0_30-unused               0   0.0    0.0
+Rain30_60-unused              0   0.0    0.0
+Rain60_90-unused              0   0.0    0.0
+Radn0_30-unused               0   0.0    0.0
+
+ 
+
+ 
+Model Configuration # 3  with 26185 datapoints used for output PoddingDAS. 
+
+
+Model development time:  17.186 seconds.
+
+  ModelNo     Target         MB      MAE     RMSE        R2       IOA       COE
+1       3 PoddingDAS 0.01598011 5.932483 8.879997 0.9341009 0.8941764 0.7883527
+
+ 
+                       nsubsets   gcv    rss
+AvgMaxT60_90                 25 100.0  100.0
+SowingDOY                    24  43.1   43.1
+AvgMinT60_90                 23  41.9   41.9
+AvgMinT30_60                 23  34.5   34.5
+Radn30_60                    22  26.9   26.9
+LateVegTarget                21  23.6   23.6
+AvgMinT0_30                  19  18.0   18.0
+AvgMaxT0_30                  17  13.6   13.7
+AvgMaxT30_60                 15  11.0   11.1
+Lat                          13   9.4    9.4
+PAWCmm                       12   8.5    8.5
+Cv                           10   7.1    7.1
+sowingESW-unused              0   0.0    0.0
+FracPAWCmm-unused             0   0.0    0.0
+SowDepth-unused               0   0.0    0.0
+Population-unused             0   0.0    0.0
+FloweringTarget-unused        0   0.0    0.0
+VegTarget-unused              0   0.0    0.0
+ShootLag-unused               0   0.0    0.0
+Rain0_30-unused               0   0.0    0.0
+Rain30_60-unused              0   0.0    0.0
+Rain60_90-unused              0   0.0    0.0
+Radn0_30-unused               0   0.0    0.0
+Radn60_90-unused              0   0.0    0.0
+
+ 
+
+ 
+Model Configuration # 4  with 26185 datapoints used for output MaturityDAS. 
+
+
+Model development time:  16.397 seconds.
+
+  ModelNo      Target         MB      MAE     RMSE        R2       IOA       COE
+1       4 MaturityDAS 0.01648693 3.973536 5.598498 0.9716234 0.9264931 0.8529862
+
+ 
+                       nsubsets   gcv    rss
+AvgMaxT60_90                 22 100.0  100.0
+SowingDOY                    21  33.4   33.4
+Population                   21  33.4   33.4
+AvgMinT30_60                 21  33.4   33.4
+AvgMinT60_90                 21  33.4   33.4
+Radn30_60                    21  33.4   33.4
+LateVegTarget                19  18.3   18.3
+AvgMinT0_30                  16  12.1   12.1
+AvgMaxT0_30                  13   7.8    7.8
+Lat-unused                    0   0.0    0.0
+PAWCmm-unused                 0   0.0    0.0
+sowingESW-unused              0   0.0    0.0
+FracPAWCmm-unused             0   0.0    0.0
+SowDepth-unused               0   0.0    0.0
+Cv-unused                     0   0.0    0.0
+FloweringTarget-unused        0   0.0    0.0
+VegTarget-unused              0   0.0    0.0
+ShootLag-unused               0   0.0    0.0
+AvgMaxT30_60-unused           0   0.0    0.0
+Rain0_30-unused               0   0.0    0.0
+Rain30_60-unused              0   0.0    0.0
+Rain60_90-unused              0   0.0    0.0
+Radn0_30-unused               0   0.0    0.0
+Radn60_90-unused              0   0.0    0.0
+
+ 
+
+ 
+Model Configuration # 5  with 26185 datapoints used for output Biomass. 
+
+
+Model development time:  16.474 seconds.
+
+  ModelNo  Target         MB      MAE     RMSE        R2     IOA       COE
+1       5 Biomass -0.9354796 87.62101 115.2915 0.9015903 0.86032 0.7206401
+
+ 
+                       nsubsets   gcv    rss
+sowingESW                    30 100.0  100.0
+Rain30_60                    30 100.0  100.0
+AvgMaxT60_90                 29  86.0   86.0
+PAWCmm                       28  57.9   57.9
+Rain60_90                    28  57.9   57.9
+Lat                          27  46.3   46.3
+Rain0_30                     26  35.2   35.2
+AvgMinT0_30                  23  23.2   23.2
+AvgMinT30_60                 20  19.1   19.1
+Radn60_90                    13   6.1    6.2
+SowingDOY-unused              0   0.0    0.0
+FracPAWCmm-unused             0   0.0    0.0
+SowDepth-unused               0   0.0    0.0
+Population-unused             0   0.0    0.0
+Cv-unused                     0   0.0    0.0
+FloweringTarget-unused        0   0.0    0.0
+LateVegTarget-unused          0   0.0    0.0
+VegTarget-unused              0   0.0    0.0
+ShootLag-unused               0   0.0    0.0
+AvgMinT60_90-unused           0   0.0    0.0
+AvgMaxT0_30-unused            0   0.0    0.0
+AvgMaxT30_60-unused           0   0.0    0.0
+Radn0_30-unused               0   0.0    0.0
+Radn30_60-unused              0   0.0    0.0
+
+ 
+
+ 
+Model Configuration # 6  with 26185 datapoints used for output GrainWt. 
+
+
+Model development time:  16.535 seconds.
+
+  ModelNo  Target         MB      MAE     RMSE       R2       IOA       COE
+1       6 GrainWt -0.3951625 40.78907 54.27244 0.883741 0.8496681 0.6993362
+
+ 
+                       nsubsets   gcv    rss
+AvgMaxT60_90                 27 100.0  100.0
+sowingESW                    26  78.3   78.3
+Rain30_60                    26  78.3   78.3
+PAWCmm                       25  49.2   49.2
+Rain60_90                    25  49.2   49.2
+Rain0_30                     24  38.9   38.9
+AvgMinT0_30                  23  32.1   32.1
+Lat                          22  28.3   28.3
+FracPAWCmm                   19  23.5   23.5
+Radn60_90                    16  17.5   17.5
+AvgMinT60_90                 15  15.2   15.2
+AvgMaxT0_30                  11   7.1    7.2
+SowingDOY-unused              0   0.0    0.0
+SowDepth-unused               0   0.0    0.0
+Population-unused             0   0.0    0.0
+Cv-unused                     0   0.0    0.0
+FloweringTarget-unused        0   0.0    0.0
+LateVegTarget-unused          0   0.0    0.0
+VegTarget-unused              0   0.0    0.0
+ShootLag-unused               0   0.0    0.0
+AvgMinT30_60-unused           0   0.0    0.0
+AvgMaxT30_60-unused           0   0.0    0.0
+Radn0_30-unused               0   0.0    0.0
+Radn30_60-unused              0   0.0    0.0
+
+ 
+
+ 
+TRAINING MODEL >>>>>>>>>>>>>>> 
+
+"ModelNo"		"Target"		"MB"		"MAE"		"RMSE"		"R2"		"IOA"		"COE"
+"2"		1		"EmergenceDAS"		-0.000573501950325385		0.694312311571738		0.892814925154514		0.948654353230151		0.892859120114256		0.785718240228513
+"3"		2		"FloweringDAS"		0.00220462275100773		1.93780842888449		2.53840707528481		0.985103013135222		0.942186485234879		0.884372970469759
+"4"		3		"PoddingDAS"		0.0159801144095754		5.93248344488354		8.87999731139911		0.93410092725013		0.894176369883867		0.788352739767734
+"5"		4		"MaturityDAS"		0.0164869343540677		3.97353644836885		5.59849758526483		0.971623445545647		0.926493119403686		0.852986238807372
+"6"		5		"Biomass"		-0.935479632541504		87.6210117213956		115.291480167156		0.901590338622555		0.860320040791064		0.720640081582127
+"7"		6		"GrainWt"		-0.395162484589111		40.7890650836454		54.2724393240644		0.883740987566713		0.849668122135948		0.699336244271896
+
+ 
+BEST TRAINING MODEL IS ... 
+
+  ModelNo       Target          MB      MAE     RMSE       R2       IOA      COE
+3       2 FloweringDAS 0.002204623 1.937808 2.538407 0.985103 0.9421865 0.884373
+
+ 
+ 
+[38;5;246m# A tibble: 6 x 3[39m
+  Target       bestR2 bestCOE
+  [3m[38;5;246m<chr>[39m[23m         [3m[38;5;246m<dbl>[39m[23m   [3m[38;5;246m<dbl>[39m[23m
+[38;5;250m1[39m Biomass       0.902   0.721
+[38;5;250m2[39m EmergenceDAS  0.949   0.786
+[38;5;250m3[39m FloweringDAS  0.985   0.884
+[38;5;250m4[39m GrainWt       0.884   0.699
+[38;5;250m5[39m MaturityDAS   0.972   0.853
+[38;5;250m6[39m PoddingDAS    0.934   0.788

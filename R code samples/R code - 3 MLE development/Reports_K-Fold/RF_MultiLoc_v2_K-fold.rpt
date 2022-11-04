@@ -1,0 +1,29 @@
+Report on RANDOM FOREST model development for   Six Locations ML v2 
+ 
+
+
+ 
+Model Configuration # 1  with 26185 datapoints used for output FloweringDAS. 
+
+
+Model development time:  5592.854 seconds.
+
+  ModelNo       Target          MB       MAE     RMSE        R2       IOA      COE
+1       1 FloweringDAS 0.006938186 0.9988606 1.353919 0.9958568 0.9701995 0.940399
+
+ 
+"ModelNo"		"Target"		"MB"		"MAE"		"RMSE"		"R2"		"IOA"		"COE"
+"2"		1		"FloweringDAS"		0.00693818581686217		0.998860600779087		1.35391873255944		0.995856780080167		0.970199509285507		0.940399018571013
+
+ 
+BEST MODEL IS ... 
+
+  ModelNo       Target          MB       MAE     RMSE        R2       IOA      COE
+2       1 FloweringDAS 0.006938186 0.9988606 1.353919 0.9958568 0.9701995 0.940399
+
+ 
+ 
+[38;5;246m# A tibble: 1 x 3[39m
+  Target       bestR2 bestCOE
+  [3m[38;5;246m<chr>[39m[23m         [3m[38;5;246m<dbl>[39m[23m   [3m[38;5;246m<dbl>[39m[23m
+[38;5;250m1[39m FloweringDAS  0.996   0.940
